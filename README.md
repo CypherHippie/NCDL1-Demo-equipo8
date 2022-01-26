@@ -36,11 +36,11 @@ Configura tu near-cli para autorizar tu cuenta de prueba creada recientemente:
 # :page_facing_up:	 Clonar el repositorio
 
 ```html
-    git clone https://github.com/
+    git clone https://github.com/CypherHippie/NCDL1-Demo-equipo8.git
 ```
 
 ```html
-    cd nonameContract
+    cd NCDL1-Demo-equipo8
 ```
 
 # :hammer_and_wrench: Build del proyecto y despliegue en development mode.
@@ -103,7 +103,7 @@ noname smart contract file system.
 │   ├── as_types.d.ts                               # AssemblyScript headers for type hint
 │   ├── index.ts                                    # Contains the smart contract code
 │   ├── models.ts                                   # Contains models accesible to the smart contract
-│   │   └── Campaing.ts                             # Contains Campaing model.
+│   │   └── Campaing.ts                             # Contains report model.
 │   └── tsconfig.json                               # Typescript configuration file
 ├── neardev
 │   ├── dev-account                                 # In this file the provisional deploy smart contract account is saved

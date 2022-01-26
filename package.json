@@ -1,0 +1,21 @@
+{
+    "name": "noname",
+  "version": "0.0.1",
+  "description": "noname Smart Contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "asp",
+    "build": "asb",
+    "devdeploy": "npm run build && near dev-deploy"
+  },
+  "authors": [
+    "hdamiangb.near",
+    "javierbambaren.near",
+    "angeltorres.near",
+    "yohken1.near"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "near-sdk-as": "^3.2.3"
+  }
+}

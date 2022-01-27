@@ -60,31 +60,31 @@ Hacer el build y deployment en development mode.
 ```
 
 
-## Comando para crear una campaña:
+## Comando para crear un reporte:
 
 ```html
     near call <your deployed contract> createReport "{\"categorie\": \"string\", \"objectives\": \"string\", \"location\":\"string\", \"goal\": number}" --account-id <your test account>
 ```
 
-## Comando para conseguir informacion de una campaña:
+## Comando para conseguir informacion de un reporte:
 
 ```html
     near call <your deployed contract> getReport "{\"id\": number}" --account-id <your test account>
 ```
 
-## Comando para conseguir lista de campañas:
+## Comando para conseguir lista de reportes:
 
 ```html
     near call <your deployed contract> getReports "{}" --account-id <your test account>
 ```
 
-## Comando para hacer donacion a una campaña:
+## Comando para hacer donacion al reporte por su contribucion:
 
 ```html
     near call <your deployed contract> donate "{\"reportID\": number, \"cuantity\": number}" --account-id <your test account>
 ```
 
-## Comando para eliminar una campaña:
+## Comando para eliminar un reporte:
 
 ```html
     near call <your deployed contract> deleteReport "{\"id\": number}" --account-id <your test account>

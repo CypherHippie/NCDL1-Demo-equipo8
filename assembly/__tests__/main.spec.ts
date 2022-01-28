@@ -1,7 +1,7 @@
 import * as contract from "../index";
 
 describe("Create report tests", () => {
-  it("Should create a report and not trow error", () => {
+  it("Should create a report and not Throws error", () => {
     expect(() => {
       contract.createReport(
         "test",
@@ -39,7 +39,13 @@ describe("Create report tests", () => {
 });
 
 describe("Get Report tests", () => {
-  it("Should get a Report and not trow error", () => {
+  it("Should get a Report and Not Throws error", () => {
+    contract.createReport(
+      "test",
+      "For testing purposes",
+      "MX, Mexico.",
+      10
+    );
     expect(() => {
       contract.getReport(0);
     }).not.toThrow();
